@@ -23,7 +23,7 @@ param sku string = 'F0'
 
 var functionAppName = 'ImageAnalyzer-${appNameSuffix}'
 var appServicePlanName = 'IAFunctionPlan'
-var storageAccountName = 'CBLStorage${replace(appNameSuffix, '-', '')}'
+var storageAccountName = 'cbl${replace(appNameSuffix, '-', '')}'
 var applicationInsightsName = 'FnAppInsights'
 var cognitiveServiceName = 'CognitiveService-${appNameSuffix}'
 
